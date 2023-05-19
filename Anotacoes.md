@@ -86,3 +86,11 @@
     string mensagem = "O número " + numero + " é " + (par ? "Par": "Impar");
     Console.WriteLine(mensagem);
 ```
+
+## Referências
+1. .[https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/nullable-value-types]
+2. .[https://www.tutorialsteacher.com/csharp/csharp-dynamic-type]
+3. .[https://www.tutorialsteacher.com/csharp/csharp-anonymous-type]
+4. .[https://www.macoratti.net/16/10/c_generic1.htm]
+5. .[https://www.c-sharpcorner.com/UploadFile/84c85b/using-generics-with-C-Sharp/]
+6. .[https://www.tutorialsteacher.com/csharp/csharp-extension-method]
