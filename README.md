@@ -5,4 +5,4 @@
 * Tipos anônimos
 * Métodos de extensão
 
-* <a href="">Anotações</a>
+* <a href="https://github.com/hesauhugo/DotNet_Tipos_Especiais/blob/main/Anotacoes.md">Anotações</a>
