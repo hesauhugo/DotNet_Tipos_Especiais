@@ -29,3 +29,13 @@
         Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Desconto: {(venda.Desconto.HasValue ? venda.Desconto.Value : "")}");
     }
 ```
+## Tipo anonimo
+* Muito semelhante a uma tupla
+* Não pode retornar em métodos
+```csharp
+    var tipoAnonimo = new {Nome="Enzo", Sobrenome= "Gabriel", Altura = 1.95};
+    Console.WriteLine($"Nome: {tipoAnonimo.Nome}");
+    Console.WriteLine($"Sobrenome: {tipoAnonimo.Sobrenome}");
+    Console.WriteLine($"Altura: {tipoAnonimo.Altura}");
+```
+## Tipo anonimo em coleção
