@@ -1,5 +1,8 @@
-﻿   using Dotnet_Tipos_Especiais.Models;
+﻿using Dotnet_Tipos_Especiais.Models;
+int numero = 20;
+bool par = false;
 
-   MeuArray<int> arrayInteiro = new MeuArray<int>();
-   arrayInteiro.AdicionarElementoArray(30);
-   Console.WriteLine(arrayInteiro[0]);
+par = numero.EhPar();
+
+string mensagem = "O número " + numero + " é " + (par ? "Par": "Impar");
+Console.WriteLine(mensagem);

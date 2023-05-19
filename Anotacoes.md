@@ -67,3 +67,22 @@
 ```
 ## Classe Genérica
 * As classes genéricas encapsulan operações que não são específicas de um determinado tipo de dados.
+```csharp
+   MeuArray<int> arrayInteiro = new MeuArray<int>();
+   arrayInteiro.AdicionarElementoArray(30);
+   Console.WriteLine(arrayInteiro[0]);
+```
+## Métodos de extensão
+* Os métodos de extensão permitem que você adicione tipos existentes sem criar um novo tipo derivado, recompilar ou , caso contrário, modificar o tipo original
+* Extende o comportamento do inteiro `this int`
+
+```csharp
+    using Dotnet_Tipos_Especiais.Models;
+    int numero = 20;
+    bool par = false;
+
+    par = numero.EhPar();
+
+    string mensagem = "O número " + numero + " é " + (par ? "Par": "Impar");
+    Console.WriteLine(mensagem);
+```
