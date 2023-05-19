@@ -19,7 +19,7 @@
 ## Tipos de Nulo em propriedades
 * Implementando 
 ```csharp
-    using Dotnet_Nuget_Serializar_Atributos.Models;
+    using Dotnet_Tipos_Especiais.Models;
     using Newtonsoft.Json;
 
     var conteudoArquivo = File.ReadAllText("Arquivos/listaVendas.json");

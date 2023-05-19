@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-namespace Dotnet_Nuget_Serializar_Atributos.Models
+namespace Dotnet_Tipos_Especiais.Models
 {
     /// <summary>
     /// 
