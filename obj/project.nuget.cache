@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+31sOszn4JhtMn4K+v8CvhHYlga0B7l5Yg8gvXRTLvxJ1u+DaXSEcKzog/TZr0BmOc0rkZMGi5LbW3KUCsTZrA==",
+  "dgSpecHash": "xAtg6p1uyECevhMa2RVS64lCvsM1sWDc1Z98hXehdvlcTPhwXgMzfw8hZPgeogYl05Y3ttgq6atgaZInpF6ujw==",
   "success": true,
   "projectFilePath": "G:\\Meu Drive\\.Net\\DotNet_Tipos_Especiais\\DotNet_Tipos_Especiais.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
